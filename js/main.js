@@ -242,7 +242,14 @@ var swiper = new Swiper('.blog-slider', {
 
   // audio play
     let con = confirm("آیا می خواهید  آهنک پخش شود ؟"); 
+    let HasDoneShittyThing = false;
+    function DoSomeShittyThing() {
+      let audio = new Audio('audio/Booye-Mahe-Mehr.mp3');
+         audio.play();
+    }
+    if (con) {
 
-    if (con){
-      document.getElementById("ppp").play();
+        HasDoneShittyThing = true;
+        DoSomeShittyThing();
+
     }
