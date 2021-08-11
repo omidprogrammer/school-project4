@@ -835,15 +835,16 @@ nav {
       4.PRICING css 
 ===========================*/
 .pricing-area {
-
   padding-top: 120px;
   padding-bottom: 200px;
   margin-bottom: 120px;
-  border-radius: 127px;
+  border-radius: 40px;
   background: linear-gradient(225deg, #cbb2b7, #f2d4d9);
-  box-shadow:  -28px 28px 56px #c5acb1,
-               28px -28px 56px #ffe0e5;
-
+  box-shadow:  -28px 28px 56px #c5acb1,               28px -28px 56px #ffe0e5;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1268,15 +1269,16 @@ margin-top: 120px;
     6.CALL TO ACTION css 
 ===========================*/
 .contact-area {
-
   padding-top: 100px;
   padding-bottom: 100px;
   margin-bottom: 100px;
-  border-radius: 127px;
+  border-radius: 40px;
   background: linear-gradient(225deg, #e68e9c, #ffa9b9);
-  box-shadow:  -28px 28px 56px #de8997,
-               28px -28px 56px #ffb3c3;
-
+  box-shadow:  -28px 28px 56px #de8997,               28px -28px 56px #ffb3c3;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
 }
 
 
@@ -1405,12 +1407,14 @@ margin-top: 120px;
 
 .footer-copyright {
   text-align: center !important;
-  border-radius: 127px;
+  border-radius:40px;
   background: linear-gradient(225deg, #273047, #2e3955);
-  box-shadow:  -7px 7px 14px #222a3e,
-               7px -7px 14px #344060;
-             margin-bottom: 10px;
-             
+  box-shadow:  -7px 7px 14px #222a3e,               7px -7px 14px #344060;
+  margin-bottom: 10px;
+  -webkit-border-radius:40px;
+  -moz-border-radius:40px;
+  -ms-border-radius:40px;
+  -o-border-radius:40px;
 }
 
 .copyright {
@@ -2859,11 +2863,14 @@ label:first-child {
 
 /* ------ Testimonials Section------ */
 .owl-stage-outer {
-  border-radius: 127px;
-background: linear-gradient(225deg, #d8d8d8, #ffffff);
-box-shadow:  -28px 28px 56px #d1d1d1,
-             28px -28px 56px #ffffff;
-             padding-top: 40px;
+  border-radius: 40px;
+  background: linear-gradient(225deg, #d8d8d8, #ffffff);
+  box-shadow:  -28px 28px 56px #d1d1d1,             28px -28px 56px #ffffff;
+  padding-top: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
 }
 
 .testimonial-item {
@@ -2989,17 +2996,13 @@ box-shadow:  12px 12px 24px #bb979e,
 } 
 
 .inner-container{
-  border-radius: 127px;
+  border-radius: 40px;
   background: linear-gradient(225deg, #cbb2b7, #f2d4d9);
-  box-shadow:  -28px 28px 56px #c5acb1,
-               28px -28px 56px #ffe0e5;
-}
-
-.inner-container h1{
-  margin-bottom: 30px;
-  font-size: 30px;
-  font-weight: 900;
-  text-align: right;
+  box-shadow:  -28px 28px 56px #c5acb1,               28px -28px 56px #ffe0e5;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
 }
 
 .inner-container .text{
