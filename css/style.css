@@ -171,7 +171,7 @@ p {
 
 /*===== All Section Title Style =====*/
 .section-title .title {
-  font-size: 50px;
+  /* font-size: 50px; */
   font-weight: 600;
   line-height: 55px;
   color: #121212;
@@ -526,7 +526,7 @@ nav {
 }
 
 .header-hero {
-  height: 850px;
+  height: 758px;
   position: relative;
 }
 
@@ -574,7 +574,7 @@ nav {
 }
 
 .header-hero .header-content .header-title {
-  font-size: 34px;
+  font-size: 25px;
   line-height: 60px;
   color: #0e0d0d;
   font-weight: 600;
@@ -1947,7 +1947,7 @@ label:first-child {
 
 .modal-body {
   background: #e0e0e0;
-  padding: 40px 100px;
+  padding: 40px 36px;
   box-shadow: 0px 50px 30px -30px rgba(0, 0, 0, 0.3);
   margin-bottom: 50px;
   position: absolute;
@@ -2167,6 +2167,7 @@ label:first-child {
 
 .card-news .content a {
 	text-decoration: none !important;
+  text-align: right;
 }
 
 
@@ -2342,7 +2343,7 @@ label:first-child {
 
 .dialogCorso .dialog-text {
   width: 100%;
-  font-size: 20px;
+  font-size: 15px;
   text-align: right;
   display: inline-block;
   text-transform: uppercase;
@@ -2390,11 +2391,12 @@ label:first-child {
 
 .news-title{
   font-family: "IRANSansWeb";
-  font-size: 44px;
+  /* font-size: 44px; */
 }
 .news-section{
   margin-top: 30px;
-  padding: 100px;
+  padding-top: 35px;
+  padding-bottom: 35px;
   border-radius: 55px;
   background: linear-gradient(145deg, #cacaca, #f0f0f0);
   box-shadow:  33px 33px 66px #aaaaaa,
@@ -2456,12 +2458,19 @@ label:first-child {
     padding-top:25px;
     font-size:24px;
   }
+  .owl-stage-outer ,.contact-area ,.inner-container , .pricing-area{
+    border-radius: 20px !important;
+    -webkit-border-radius: 20px !important;
+    -moz-border-radius: 20px !important;
+    -ms-border-radius: 20px !important;
+    -o-border-radius: 20px !important;
+}
 }
 
 .photo-gallery .intro {
   font-size:18px;
-  max-width:500px;
-  margin:0 auto 40px;
+  padding-top: 15px;
+  padding-bottom: 10px;
 }
 
 .photo-gallery .intro p {
