@@ -241,9 +241,9 @@ var swiper = new Swiper('.blog-slider', {
     // });
 
   // audio play
-    var con = confirm("آیا می خواهید  آهنک پخش شود ؟"); 
+    // var con = confirm("آیا می خواهید  آهنک پخش شود ؟"); 
     
-    if (con==true) {
+    // if (con) {
       var audioPlay = new Audio('audio/Booye-Mahe-Mehr.mp3');
       audioPlay.play();
-    }
+    // }
