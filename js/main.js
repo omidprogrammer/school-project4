@@ -241,15 +241,9 @@ var swiper = new Swiper('.blog-slider', {
     // });
 
   // audio play
-    let con = confirm("آیا می خواهید  آهنک پخش شود ؟"); 
-    let HasDoneShittyThing = false;
-    function DoSomeShittyThing() {
-      let audio = new Audio('audio/Booye-Mahe-Mehr.mp3');
-         audio.play();
-    }
-    if (con) {
-
-        HasDoneShittyThing = true;
-        DoSomeShittyThing();
-
+    var con = confirm("آیا می خواهید  آهنک پخش شود ؟"); 
+    
+    if (con==true) {
+      var audioPlay = new Audio('audio/Booye-Mahe-Mehr.mp3');
+      audioPlay.play();
     }
