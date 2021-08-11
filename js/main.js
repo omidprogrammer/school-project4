@@ -239,3 +239,10 @@ var swiper = new Swiper('.blog-slider', {
     //         }
     //     }
     // });
+
+  // audio play
+    let con = confirm("آیا می خواهید  آهنک پخش شود ؟"); 
+
+    if (con){
+      document.getElementById("ppp").play();
+    }

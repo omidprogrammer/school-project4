@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="msapplication-TileColor" content="#f67280">
+    <meta name="theme-color" content="#f67280">
     <!--====== Title ======-->
     <title> سایت پیش دبستانی مکتبخانه </title>
 
@@ -132,22 +132,9 @@
                                 <img src="images/img/p1.png" alt="planet" class="main-img2">
                                 <img src="images/img/star2.png" alt="img" class="main-img3">
 
-                                <script defer>
-
-                                    let con = confirm("آیا می خواهید  آهنک پخش شود ؟"); 
-                                    let HasDoneShittyThing = false;
-                                    function DoSomeShittyThing() {
-                                         audio.play();
-                                    }
-                                    let audio = new Audio('audio/Booye-Mahe-Mehr.mp3');
-                                    if (con) {
-
-                                        HasDoneShittyThing = true;
-                                        DoSomeShittyThing();
-
-                                    }
-
-                                </script>
+                                <audio controls id="ppp" style="display: none" autoplay>
+                                    <source  src="audio/Booye-Mahe-Mehr.mp3">
+                                </audio>
                             
                             </div>
                         </div>
