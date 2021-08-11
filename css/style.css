@@ -3013,7 +3013,7 @@ box-shadow:  12px 12px 24px #bb979e,
 
 @media screen and (max-width:1200px){
   .inner-container{
-      padding: 80px;
+      padding: 10px !important;
   }
 }
 
