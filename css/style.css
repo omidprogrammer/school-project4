@@ -651,7 +651,7 @@ nav {
   height: 100%;
   top: 0;
   left: 0;
-  background: linear-gradient(90deg, hsla(354, 88%, 71%, 1) 0%, hsla(331, 74%, 68%, 1) 100%);
+  background: linear-gradient(90deg, #f67481 0%, hsla(331, 74%, 68%, 1) 100%);
   background: -moz-linear-gradient(90deg, hsla(354, 88%, 71%, 1) 0%, hsla(331, 74%, 68%, 1) 100%);
   background: -webkit-linear-gradient(90deg, hsla(354, 88%, 71%, 1) 0%, hsla(331, 74%, 68%, 1) 100%);
   background-position: right center;
@@ -1832,11 +1832,8 @@ mark {
 .icon-style {
   color: #F7941D;
   border-radius: 46px;
-  background: linear-gradient(145deg, #616161, #747474);
-  box-shadow: 40px 40px 80px #3f3f3f,
-    -40px -40px 80px #999999;
-
-}
+  background: linear-gradient(145deg, #ffd8e1, #e1b6bd);
+  box-shadow: -28px 28px 56px #c5acb1, 28px -28px 56px #ffe0e5;}
 
 .carousel-inner img {
   border-radius: 0px 0px 5px 5px;
